@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — HCapital CleanTech</title>
+<meta name="description" content="Investor and partner inquiries for HCapital CleanTech. A short message, no payment and no account. Based in Lagos, Nigeria.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav">
+    <a class="nav__logo" href="index.html" aria-label="HCapital CleanTech home">
+      <img src="assets/logo-wordmark.svg" alt="HCapital CleanTech" width="180" height="24">
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a class="nav__link " href="about.html">About</a>
+      <a class="nav__link " href="model.html">The Model</a>
+      <a class="nav__link " href="where.html">Where We&#39;re Starting</a>
+      <a class="nav__link " href="impact.html">Projected Impact</a>
+    </nav>
+    <div class="nav__cta"><a class="btn btn--primary btn--sm" href="contact.html">Partner with us</a></div>
+    <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="icon-menu"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M4 6h16M4 18h16"/></svg></span>
+      <span class="icon-close is-hidden"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a class="" href="about.html">About</a>
+    <a class="" href="model.html">The Model</a>
+    <a class="" href="where.html">Where We&#39;re Starting</a>
+    <a class="" href="impact.html">Projected Impact</a>
+    <a class="is-active" href="contact.html" aria-current="page">Contact</a>
+    <a class="btn btn--primary btn--block" href="contact.html">Partner with us</a>
+  </div>
+</header>
+<main id="main">
+<section class="section section--surface section--pagehero"><div class="container"><div class="auto-grid g-col-300 g-gap-16 g-start"><div>
+  <span class="tag tag--accent"><span class="tag__dot" aria-hidden="true"></span>Contact</span>
+  <h1 class="page-title page-title--sm mt-4">Investor &amp; partner inquiries.</h1>
+  <p class="hero-lead mw-440">Tell us a little about your interest and we&#39;ll be in touch. No payment, no account — just a short message.</p>
+  <div class="stack stack-4 mt-8"><div class="detail-row"><span class="icon-badge"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span><div><div class="label">Email</div><div class="value">hello@hcapitalcleantech.com</div></div></div><div class="detail-row"><span class="icon-badge"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.4-8 12-8 12s-8-7.6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="label">Based in</div><div class="value">Lagos, Nigeria</div></div></div><div class="detail-row"><span class="icon-badge"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><div><div class="label">Best for</div><div class="value">Investors, partners &amp; community contacts</div></div></div></div>
+</div><div class="card card--pad-lg shadow-md">
+  <form id="contact-form" novalidate>
+    <span class="eyebrow eyebrow--muted">Get in touch</span>
+    <div class="stack gap-5 mt-5">
+      <div class="field"><label for="f-name">Full name <span class="req" aria-hidden="true">*</span></label><input id="f-name" name="name" type="text" placeholder="Your name" autocomplete="name" required></div>
+      <div class="field"><label for="f-org">Organisation</label><input id="f-org" name="organisation" type="text" placeholder="Company or fund" autocomplete="organization"></div>
+      <div class="field"><label for="f-email">Email <span class="req" aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" placeholder="you@org.com" autocomplete="email" required></div>
+      <div class="field"><label for="f-msg">Message</label><textarea id="f-msg" name="message" rows="4" placeholder="Tell us about your interest."></textarea></div>
+      <button type="submit" class="btn btn--primary btn--lg btn--block">Send inquiry</button>
+      <p class="form-note">We don&#39;t collect sensitive information.</p>
+    </div>
+  </form>
+  <div id="contact-success" class="form-success is-hidden" tabindex="-1" aria-live="polite">
+    <div class="form-success__check"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></div>
+    <h2>Thank you</h2>
+    <p class="mt-3 lh-relaxed">Your message has been noted. We&#39;ll be in touch.<br><span class="muted-note">(Demo form — nothing was sent.)</span></p>
+    <div class="mt-6"><button type="button" class="btn btn--secondary" id="send-another">Send another</button></div>
+  </div>
+</div></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo-wordmark-dark.svg" alt="HCapital CleanTech" width="180" height="24">
+        <p>The clean energy arm of H Capital International. Battery-as-a-Service for productive use, starting in Lagos.</p>
+        <p><span class="footer-badge">Pre-launch · pilot stage</span></p>
+      </div>
+      <nav class="footer-col" aria-label="Footer">
+        <span class="footer-col__head">Explore</span>
+        <a href="model.html">The Model</a>
+      <a href="impact.html">Projected Impact</a>
+      <a href="where.html">Where We&#39;re Starting</a>
+      <a href="about.html">About &amp; Team</a>
+      <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-col">
+        <span class="footer-col__head">Contact</span>
+        <span>hello@hcapitalcleantech.com</span>
+        <span>Lagos, Nigeria</span>
+        <span>Investor &amp; partner inquiries welcome</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 HCapital CleanTech · a member of the H Capital International family</span>
+      <span>Placeholder content — figures, names &amp; locations to be confirmed before launch</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
